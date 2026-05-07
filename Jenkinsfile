@@ -11,14 +11,6 @@ pipeline {
             }
         }
 
-        // another way to clone repo using checkout
-        // stage('Checkout') {
-        //     steps {
-        //         // checkout repo
-        //         checkout scm
-        //     }
-        // }
-
         // clean up old files
         stage('Cleanup') {
             steps {
